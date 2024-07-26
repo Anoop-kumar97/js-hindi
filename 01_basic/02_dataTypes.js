@@ -13,9 +13,15 @@ let avilable = true
 
 
 // number => 2 to power 53
-// bigint
+// bigint     
 // boolean => true/false
 // srting => ""
 // null => standlone value
 // undefined =>
 // symbul => unique
+
+console.log(typeof bigint)       //  undefined
+console.log(typeof symbul)       //  undefined
+console.log(typeof undefined)    //  undefined
+console.log(typeof null)         //  object
+
