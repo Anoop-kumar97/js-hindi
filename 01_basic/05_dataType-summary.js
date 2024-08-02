@@ -9,10 +9,10 @@
 
   const id = Symbol('123')
   const anotherId = Symbol('123')
-        console.log( id === anotherId)     // it's not same value
+  //      console.log( id === anotherId)     // it's not same value
 
   let bigNum = 98756483939397565n
-   console.log(typeof bigNum)              //  bigint
+ //    console.log(typeof bigNum)              //  bigint
 
 //     NON PRIMITIVE  ( Reference )
 //    3 Type : Array, Objects, Functions     ====    everyone datatype / typeof - object Function 
@@ -28,8 +28,30 @@ let heros = ["shaktiman","hatim","balveer"]
  let myfunc = function(){
       console.log("hello world")
  }
- myfunc();
+ //   myfunc();
 
  //  All datatype check  ==>     https://262.ecma-international.org/5.1/#sec-11.4.3
 
  
+ //  +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ //   Stack (memory) =[ Primitive ]  ||||   Heap [ Non-Primitive ]
+
+ let myyoutubename = "anoop@123"
+
+ let anotherName = myyoutubename
+ anotherName = "chaiaurcode"
+
+//   console.log(myyoutubename)
+//   console.log(anotherName)
+
+
+ let userOne = {
+        mailId: "priya@123",
+        password: 9785756626
+ }
+ let userTwo = userOne
+ 
+userTwo.password = 987654321
+  console.log(userOne)
+  console.log(userTwo)
