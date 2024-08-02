@@ -64,3 +64,6 @@ console.log(say + name);
         let num1 , num2 , num3
         num1 = num2 = num2 = 2+2     //  output  => 4          }    */
 
+      
+     // link to study
+     //  https://tc39.es/ecma262/multipage/abstract-operations.html#sec-type-conversion
