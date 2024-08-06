@@ -49,11 +49,43 @@ const user = [
     }
 ];
 
-  console.log(user[1].age)
+ //  console.log(user[1].age)
 
 // console.log(tinderUser)
 // console.log(Object.keys(tinderUser))      // [ 'name', 'age', 'isLogin' ]
 // console.log(Object.values(tinderUser))    // [ 'Anoop', 25, false ]
 // console.log(Object.entries(tinderUser))   // [ [ 'name', 'Anoop' ], [ 'age', 25 ], [ 'isLogin', false ] ]
 
-console.log(tinderUser.hasOwnProperty('Anoop'))  //  check avilable keys
+//  console.log(tinderUser.hasOwnProperty('Anoop'))  //  check avilable keys
+
+
+// *******************************************************************************************************
+
+// +++++++++       Object  Destructuring           ++++++++++
+
+const course = {
+  courseNmae: "JS in Hindi",
+  coursePrice: 999,
+  courseInstructor: "Hitesh"
+}
+
+// console.log(course.courseInstructor);
+
+const {courseInstructor: instructor} = course   //   it's destructuring
+// console.log(instructor);
+
+
+// ++++   Object API   => Json Format     +++++
+//   "name": "Anoop",
+//   "courseName": "JS in Hindi",
+//   "price": "Free"
+//   "user":  150000
+// }
+
+//   ++++++   Array API  => Json Format     +++++++++++
+ 
+[
+  {},
+  {},
+  {}
+]
