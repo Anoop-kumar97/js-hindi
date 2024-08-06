@@ -1,3 +1,5 @@
+ //  ***  Marge Array   *** 
+
 const marval_heros = ["thor","ironman","spiderman"]
 const dc_heros = ["batman","flash", "superman"]
 
@@ -11,7 +13,7 @@ const all_new_Heros = [...marval_heros,...dc_heros]   // Spread method, Mostly u
  console.log(all_new_Heros)       //       [ 'thor', 'ironman', 'spiderman', 'batman', 'flash', 'superman' ]
 
 
-//   Nested Array  => convert to a single Array / spread
+//   ***  Nested Array  => convert to a single Array / spread    ***
 
 const num_arr = [1,2,3,[4,5,6],7,8,[9,10,[11,12,[0,50],13],14,15],16]
 
