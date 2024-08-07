@@ -82,7 +82,7 @@ const {courseInstructor: instructor} = course   //   it's destructuring
 //   "user":  150000
 // }
 
-//   ++++++   Array API  => Json Format     +++++++++++
+//   ++++++   Array API  => Json Format     ++++++++
  
 [
   {},
