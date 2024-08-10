@@ -41,3 +41,7 @@ for (let index = 0; index <= 10; index++) {
     }
     console.log(`Value of index is ${index}` )
 }
+
+for (let i = 0; i <= 20; i=i+2) {
+    console.log(i)
+}
