@@ -45,3 +45,7 @@ for (let index = 0; index <= 10; index++) {
 for (let i = 0; i <= 20; i=i+2) {
     console.log(i)
 }
+
+for (let i = 0; i <= 5*10; i = i+5) {
+    console.log(i)
+ }
